@@ -1,0 +1,68 @@
+%% LyX 1.6.5 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[oneside,english]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{verbatim}
+\usepackage{tipa}
+\usepackage{amsthm}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+% $Id: stressOrScript.tex 498 2010-07-20 08:41:19Z leolopes $
+
+\makeatother
+
+\usepackage{babel}
+
+\begin{document}
+
+\title{A stress test}
+
+\maketitle
+%
+\begin{comment}
+\textbackslash{}RUNTITLE\{stress\}
+\end{comment}
+{}
+\begin{abstract}
+See if the class works
+\end{abstract}
+
+\keywords{test; {\small attempt} to break}
+
+
+\author{Me Myself}
+
+
+\address{Somewhere \emph{italic}}
+
+
+\email{me@nomail.com}
+
+
+\author{Çømëõ\textsubcircum{n}ë Fæmöúß}
+
+
+\address{Some exotic place}
+
+
+\email{the@ydidntdomu.ch}
+\begin{thm}
+2 + 2 = 4\end{thm}
+\begin{proof}
+{Not so straightforward, eh?}Bertrand Russel said so.
+\end{proof}
+
+\dedicatory{Thanks to Prof. Manuel for teaching me about the sequence function.}
+
+\bibliographystyle{plain}
+\bibliography{IEEEfull}
+
+\end{document}

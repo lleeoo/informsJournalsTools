@@ -7,8 +7,9 @@ especially Operations Research and Informs Journal on Computing.
 * A script for converting LateX extracted from LyX using the AMS Style
   to source including INFORMS' Style
 * A script that updates abbreviations to match the INFORMS convetions.
-* A style file for INFORMS-formatted bibliography
 * Some tests
+
+Special thanks to Paul Rubin who encouraged me to get this out of the attic.
 
 Please fork ad nauseum, as I will have limited bandwidth for testing
 until the next time I submit a paper to an INFORMS Journal. 

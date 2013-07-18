@@ -1,0 +1,145 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsart
+\begin_preamble
+% $Id: stressOrScript.lyx 498 2010-07-20 08:41:19Z leolopes $
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+A stress test
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+RUNTITLE{stress}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+See if the class works
+\end_layout
+
+\begin_layout Keywords
+test; 
+\size small
+attempt
+\size default
+ to break
+\end_layout
+
+\begin_layout Author
+Me Myself
+\end_layout
+
+\begin_layout Address
+Somewhere 
+\emph on
+italic
+\end_layout
+
+\begin_layout Email
+me@nomail.com
+\end_layout
+
+\begin_layout Author
+Çømëõṋë Fæmöúß
+\end_layout
+
+\begin_layout Address
+Some exotic place
+\end_layout
+
+\begin_layout Email
+the@ydidntdomu.ch
+\end_layout
+
+\begin_layout Theorem
+2 + 2 = 4
+\end_layout
+
+\begin_layout Proof
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{Not so straightforward, eh?}
+\end_layout
+
+\end_inset
+
+Bertrand Russel said so.
+\end_layout
+
+\begin_layout Dedicatory
+Thanks to Prof.
+ Manuel for teaching me about the sequence function.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "IEEEfull"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
